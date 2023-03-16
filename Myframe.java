@@ -24,10 +24,10 @@ public class Myframe extends JFrame{
 	
 	
 	Myframe(){
-//		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//		this.setTitle("My Clock Program");
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setTitle("My Clock Program");
 		this.setLayout(new FlowLayout());
-//		this.setSize(350,200);
+		this.setSize(350,200);
 //		this.setResizable(false);
 		
 		timeFormat = new SimpleDateFormat("hh:mm:ss a");
